@@ -1,0 +1,16 @@
+/Users/nissoncx/code/RabbitMqDemo/src/main/java/com/cqu/rabbitmqdemo/work/WorkQueueConsumer1.java
+/Users/nissoncx/code/RabbitMqDemo/src/main/java/com/cqu/rabbitmqdemo/work/WorkQueueProducer.java
+/Users/nissoncx/code/RabbitMqDemo/src/main/java/com/cqu/rabbitmqdemo/topic/TopicProducer.java
+/Users/nissoncx/code/RabbitMqDemo/src/main/java/com/cqu/rabbitmqdemo/direct/DirectConsumerRed.java
+/Users/nissoncx/code/RabbitMqDemo/src/main/java/com/cqu/rabbitmqdemo/topic/TopicConsumerAll.java
+/Users/nissoncx/code/RabbitMqDemo/src/main/java/com/cqu/rabbitmqdemo/RabbitMqDemoApplication.java
+/Users/nissoncx/code/RabbitMqDemo/src/main/java/com/cqu/rabbitmqdemo/direct/DirectConsumerBlue.java
+/Users/nissoncx/code/RabbitMqDemo/src/main/java/com/cqu/rabbitmqdemo/config/RabbitConfig.java
+/Users/nissoncx/code/RabbitMqDemo/src/main/java/com/cqu/rabbitmqdemo/fanout/FanoutConsumer1.java
+/Users/nissoncx/code/RabbitMqDemo/src/main/java/com/cqu/rabbitmqdemo/topic/TopicConsumerChina.java
+/Users/nissoncx/code/RabbitMqDemo/src/main/java/com/cqu/rabbitmqdemo/simple/SimpleQueueProducer.java
+/Users/nissoncx/code/RabbitMqDemo/src/main/java/com/cqu/rabbitmqdemo/direct/DirectProducer.java
+/Users/nissoncx/code/RabbitMqDemo/src/main/java/com/cqu/rabbitmqdemo/simple/SimpleQueueConsumer.java
+/Users/nissoncx/code/RabbitMqDemo/src/main/java/com/cqu/rabbitmqdemo/work/WorkQueueConsumer2.java
+/Users/nissoncx/code/RabbitMqDemo/src/main/java/com/cqu/rabbitmqdemo/fanout/FanoutConsumer2.java
+/Users/nissoncx/code/RabbitMqDemo/src/main/java/com/cqu/rabbitmqdemo/fanout/FanoutProducer.java

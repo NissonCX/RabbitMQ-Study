@@ -1,0 +1,16 @@
+com/cqu/rabbitmqdemo/work/WorkQueueConsumer1.class
+com/cqu/rabbitmqdemo/simple/SimpleQueueProducer.class
+com/cqu/rabbitmqdemo/fanout/FanoutProducer.class
+com/cqu/rabbitmqdemo/config/RabbitConfig.class
+com/cqu/rabbitmqdemo/topic/TopicConsumerAll.class
+com/cqu/rabbitmqdemo/RabbitMqDemoApplication.class
+com/cqu/rabbitmqdemo/topic/TopicProducer.class
+com/cqu/rabbitmqdemo/fanout/FanoutConsumer2.class
+com/cqu/rabbitmqdemo/work/WorkQueueProducer.class
+com/cqu/rabbitmqdemo/direct/DirectConsumerRed.class
+com/cqu/rabbitmqdemo/direct/DirectConsumerBlue.class
+com/cqu/rabbitmqdemo/topic/TopicConsumerChina.class
+com/cqu/rabbitmqdemo/simple/SimpleQueueConsumer.class
+com/cqu/rabbitmqdemo/work/WorkQueueConsumer2.class
+com/cqu/rabbitmqdemo/fanout/FanoutConsumer1.class
+com/cqu/rabbitmqdemo/direct/DirectProducer.class
