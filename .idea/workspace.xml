@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09346295-63ca-4d5c-8046-66c87670134b" name="Changes" comment="feat(config): 添加 RabbitMQ 配置和项目字典&#10;&#10;- 配置 RabbitMQ 连接参数（主机、端口、用户名、密码）&#10;- 设置 RabbitMQ 消费者预取数量为 1&#10;- 添加项目字典文件，包含 hmall 关键词&#10;- 配置 Spring 应用名称为 RabbitMqDemo">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="09346295-63ca-4d5c-8046-66c87670134b" name="Changes" comment="config(rabbitmq): 配置 RabbitMQ 连接参数和项目设置&#10;&#10;- 添加 RabbitMQ 虚拟主机配置 /hmall&#10;- 更新 Lombok 版本从 1.18.42 到 1.18.30&#10;- 添加 Maven 编译器源码和目标版本配置&#10;- 配置 RabbitMQ 消费者预取数量为 1&#10;- 添加项目应用名称配置&#10;- 更新 IDE 配置文件和 Git 设置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqu/rabbitmqdemo/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqu/rabbitmqdemo/config/RabbitConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +104,7 @@
       <updated>1766732815194</updated>
       <workItem from="1766732816469" duration="9665000" />
       <workItem from="1766744817691" duration="290000" />
-      <workItem from="1766745114302" duration="4145000" />
+      <workItem from="1766745114302" duration="16486000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize Spring Boot project with RabbitMQ support and basic application setup">
       <option name="closed" value="true" />
@@ -138,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766738887530</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="config(rabbitmq): 配置 RabbitMQ 连接参数和项目设置&#10;&#10;- 添加 RabbitMQ 虚拟主机配置 /hmall&#10;- 更新 Lombok 版本从 1.18.42 到 1.18.30&#10;- 添加 Maven 编译器源码和目标版本配置&#10;- 配置 RabbitMQ 消费者预取数量为 1&#10;- 添加项目应用名称配置&#10;- 更新 IDE 配置文件和 Git 设置">
+      <option name="closed" value="true" />
+      <created>1766749278805</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1766749278805</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +157,8 @@
     <MESSAGE value="Add IDE configuration files for project setup and build management" />
     <MESSAGE value="feat(rabbitmq): 添加RabbitMQ消息队列示例项目&#10;&#10;- 实现简单队列、工作队列、发布订阅、路由和主题五种消息模式&#10;- 配置RabbitMQ交换机和队列绑定关系&#10;- 创建各类生产者和消费者组件&#10;- 降级Spring Boot版本从4.0.1到3.2.0&#10;- 移除应用名称配置项&#10;- 修复测试依赖包名错误" />
     <MESSAGE value="feat(config): 添加 RabbitMQ 配置和项目字典&#10;&#10;- 配置 RabbitMQ 连接参数（主机、端口、用户名、密码）&#10;- 设置 RabbitMQ 消费者预取数量为 1&#10;- 添加项目字典文件，包含 hmall 关键词&#10;- 配置 Spring 应用名称为 RabbitMqDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(config): 添加 RabbitMQ 配置和项目字典&#10;&#10;- 配置 RabbitMQ 连接参数（主机、端口、用户名、密码）&#10;- 设置 RabbitMQ 消费者预取数量为 1&#10;- 添加项目字典文件，包含 hmall 关键词&#10;- 配置 Spring 应用名称为 RabbitMqDemo" />
+    <MESSAGE value="config(rabbitmq): 配置 RabbitMQ 连接参数和项目设置&#10;&#10;- 添加 RabbitMQ 虚拟主机配置 /hmall&#10;- 更新 Lombok 版本从 1.18.42 到 1.18.30&#10;- 添加 Maven 编译器源码和目标版本配置&#10;- 配置 RabbitMQ 消费者预取数量为 1&#10;- 添加项目应用名称配置&#10;- 更新 IDE 配置文件和 Git 设置" />
+    <option name="LAST_COMMIT_MESSAGE" value="config(rabbitmq): 配置 RabbitMQ 连接参数和项目设置&#10;&#10;- 添加 RabbitMQ 虚拟主机配置 /hmall&#10;- 更新 Lombok 版本从 1.18.42 到 1.18.30&#10;- 添加 Maven 编译器源码和目标版本配置&#10;- 配置 RabbitMQ 消费者预取数量为 1&#10;- 添加项目应用名称配置&#10;- 更新 IDE 配置文件和 Git 设置" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
